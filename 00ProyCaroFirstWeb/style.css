@@ -1,0 +1,146 @@
+html{
+    font-size: 100%;
+}
+
+
+a:link {color: white;}
+a:visited {color: bisque;}
+a:active {color:beige;}
+
+body {
+    background-image: url("backgroundpattern.jpg")!important;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Orelega One', cursive;
+}
+
+.header {
+    background:transparent;
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    width: 100%;
+    font-size:4rem;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding-top: 2rem;
+    background-color: chocolate;
+    border-radius: 1rem;
+    border: white solid thin;
+    height: 3rem;
+    width: calc(100%-5px);
+    text-align: center;
+}
+
+.menu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+main {
+    background-image: url("backgroundleaves.jpg");
+    background-repeat: repeat;
+    float: left;
+    border: black solid thin;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 40 px;
+    width: 73%;
+}
+
+main .articlesection{
+    background-color: beige;
+    border-radius: 1rem;
+    border: black thin solid;
+    margin: 5rem;
+    padding: 5rem;
+    color: black;
+}
+
+.articlesection p{
+    text-align: justify;
+}
+
+
+.articlesection h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.advertisingsectio h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+aside{
+    border-radius: 1rem;
+    border: white solid thin;
+    color: white;
+    background-color: chocolate;
+    float: right;
+    margin-top: 2rem;
+    padding: 10px;
+    width:  20%;
+    height: auto;
+}
+
+.advertisingsection{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.gifsection img{
+    width: 100%;
+    max-width:300px;
+    height: auto;
+}
+
+
+.footer{
+    background: #994d33;
+    color: white;
+    height: 2rem;
+    border-top: 2px solid white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+iframe{
+    width: 100%;
+    max-width:30rem;
+    height: 20rem;
+    border: 0;
+}
+
+
+table{
+    border: black solid medium;
+    background-color: white;
+    width:100%;
+    max-width:20rem ;
+    height: auto;
+}
+
+
+td, th {
+  border: black thin solid;
+}
+
+#comment{
+    width: 100%;
+    max-width: 10rem;
+}
